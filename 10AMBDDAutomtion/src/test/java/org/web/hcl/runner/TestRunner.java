@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
                  tags="@Regression",
                 		 plugin= {"html:target/cucumber-report/",
                 					"json:target/cucumber.json",
-                					"pretty:target/cucumber-pretty.txt",
+                					"pretqwqwety:target/cucumber-pretty.txt",
                 					"junit:target/cucumber-results.xml",
                 			"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:"}
                  )
@@ -26,7 +26,7 @@ public class TestRunner {
 	@BeforeClass
 	public static void setup() {
 		ExtentProperties   extentproperties    =    ExtentProperties.INSTANCE;
-		extentproperties.setReportPath("./Reports/Regression.html");
+
 	}
 
 
